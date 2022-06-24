@@ -5,7 +5,7 @@ class Welcome extends Component {
         const {name, heroName} = this.props
         return (
         <h1>
-            Welcome {name} a.k.a {heroName}
+            Welcome {name} is {heroName}
         </h1>
         )
     }
